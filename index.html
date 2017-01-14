@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Prueba de la Caja</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/Calcular.js"></script>
+</head>
+<body>
+    <div class="container">
+    	<div class="row">
+    		<div class="col-xs-12">
+    			<h1>Calcula todas las posivilidades</h1>
+    			<article>
+    				<p>
+    					Este es un programa realizado con la intención de dar solución a un problema planteado en un reto, el cual plantea lo siguiente:
+					</p>
+					<p>
+						- Se tiene una caja, dentro de dicha caja se encuentran una x cantidad de pelotas. ¿Cuantas combinaciones distintas existen para sacar todas? (Solo se tiene en cuenta la cantidad se sacaran por vez)
+					</p>
+    				<form name="formulario" onsubmit="calcular()">
+    					<label>
+    						¿Cuantas pelotas contiene la caja?
+    					</label>
+    					<input type="number" name="pelotas" min="0" required>
+    					<input type="submit" name="boton" value="Calcular!">
+    				</form>
+    			</article>
+    		</div>
+    	</div>
+    </div>
+	
+</body>
+</html>
